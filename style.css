@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+    color: #f0f0f0; /* Text color for better contrast */
+}
+
+.stopwatch {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff; /* White text color for better contrast */
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color:black;
+    background-color:whitesmoke;
+}
+
+#laps {
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    color: #fff; /* White text color for laps */
+}
+
+#laps div {
+    padding: 5px;
+    border-bottom: 1px solid #333; /* Darker border for laps */
+    font-size: 16px;
+}
